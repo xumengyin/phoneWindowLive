@@ -1,0 +1,16 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <!--303237-->
+    <color name="colorPrimary">#1e2025</color>
+    <color name="colorPrimaryDark">#303F9F</color>
+    <color name="colorAccent">#127712</color>
+    <color name="black">#000000</color>
+    <color name="white">#ffffff</color>
+    <color name="colorControlHighlight">#80ffffff</color>
+    <!--222528-->
+    <color name="bg_color">#16191c</color>
+    //19 112 238
+    <color name="blue_icon1">#1370ee</color>
+    //37 192 243
+    <color name="blue_icon2">#25c0f3</color>
+</resources>

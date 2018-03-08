@@ -1,0 +1,4 @@
+include ':app', ':inputvoiceview', ':roadlensD', ':testcontentprivader'
+include ':explame1'
+include ':libstreaming'
+include ':example2'

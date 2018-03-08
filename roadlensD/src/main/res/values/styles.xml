@@ -1,0 +1,41 @@
+<resources>
+
+    <!-- Base application theme. -->
+    <style name="AppTheme" parent="Theme.AppCompat.Light.NoActionBar">
+        <!-- Customize your theme here. -->
+        <item name="colorPrimary">@color/colorPrimary</item>
+        <item name="colorPrimaryDark">@color/colorPrimary</item>
+        <item name="colorAccent">@color/colorAccent</item>
+        <item name="android:colorControlHighlight">#80ffffff</item>
+    </style>
+
+    <style name="main_activityTheme" parent="AppTheme">
+        <!-- Customize your theme here. -->
+        <item name="android:textColor">@color/white</item>
+        <item name="android:textSize">@dimen/main_item_text_size</item>
+        <item name="android:shadowColor">@color/bg_color</item>
+        <item name="android:shadowDx">1</item>
+        <item name="android:shadowDy">1</item>
+        <item name="android:shadowRadius">3</item>
+
+
+    </style>
+
+    <style name="menu_item_style" parent="AppTheme">
+        <item name="android:foreground">?attr/selectableItemBackground</item>
+        <item name="cardCornerRadius">1dp</item>
+        <item name="cardElevation">5dp</item>
+        <item name="android:clickable">true</item>
+        <item name="android:stateListAnimator">@drawable/main_item_touch</item>
+
+    </style>
+
+    <declare-styleable name="main_itemView_style"
+        >
+        <attr name="imageview" format="reference"/>
+        <attr name="android:text"/>
+        <attr name="android:background"/>
+        <attr name="android:textColor"/>
+        <attr name="android:textSize"/>
+    </declare-styleable>
+</resources>
